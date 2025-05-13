@@ -1,0 +1,90 @@
+body{
+    margin: 0px auto;
+}
+
+.container{
+    display: flex;
+    max-width:650px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    flex-direction: column;
+    border: 1px solid rgb(15, 201, 15);
+    border-radius: 5px;
+}
+
+h1{
+    color: rgb(17, 184, 17);
+}
+
+.add-id,
+.search-id{
+    display: flex;
+}
+
+.search-input{
+  width: 100%;
+  padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(233, 248, 213);
+}
+
+.add-input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(233, 248, 213);
+}
+
+button{
+ background-color: green;
+ padding: 10px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ border: none;
+}
+
+i{
+    color:white
+}
+
+.search-id, 
+main,
+.add-id{
+    width: 90%;
+}
+
+.to-do-list {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+
+.to-do-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(17, 184, 17);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.delete-btn {
+    background-color: rgb(17, 184, 17);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
